@@ -34,10 +34,10 @@ dependencies {
     annotationProcessor(libs.doburoku.annotation.processor)
 }
 
-val mainPackage = "$group.papertemplate" // TODO: パッケージ名を変更
+val mainPackage = "$group.movebalance"
 paperPluginYaml {
-    name = "PaperTemplate" // TODO: プラグイン名を変更
-    author = "Namiu (うにたろう)" // TODO: 自分の名前に変更
+    name = "MoveBalance"
+    author = "すだち"
     website = "https://github.com/CraftersLife-Dev"
     apiVersion = "1.21"
 
