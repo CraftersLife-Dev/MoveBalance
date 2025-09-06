@@ -91,11 +91,10 @@ tasks {
         // runディレクトリの中にlog4j2.xmlを突っ込むとログの設定を変更可能
         // Paper: https://github.com/PaperMC/Paper/blob/main/paper-server/src/main/resources/log4j2.xml
         systemProperty("log4j.configurationFile", "log4j2.xml")
-        minecraftVersion("1.21.8")
+        minecraftVersion("1.21.5")
         downloadPlugins {
             modrinth("luckperms", "v5.5.0-bukkit")
-            url("https://ci.codemc.io/job/MiniPlaceholders/job/MiniPlaceholders/14/artifact/jar/MiniPlaceholders-Paper-2.3.1-SNAPSHOT.jar")
-            modrinth("miniplaceholders-placeholderapi-expansion", "1.2.0")
+            modrinth("miniplaceholders","7caNTwMh")
             hangar("PlaceholderAPI", "2.11.6")
         }
     }
